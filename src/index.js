@@ -45,6 +45,8 @@ exports.rest = {
   Others: require('./rest/Others'),
 };
 
+exports.http = require('./lib/http')
+
 /** Exports Datafeed */
 exports.websocket = {
   Datafeed: require('./lib/datafeed'),
